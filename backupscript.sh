@@ -5,7 +5,7 @@
 ZIELMOUNT=/media/...
 #in welchem Ordner auf dem Zielmount soll das Backup abgelegt werden?
 ZIELVZ=$ZIELMOUNT/...
-#Quellverzeichniss
+#Quellverzeichnis
 QUELLVZ=/
 #welche Ordner sollen nicht gesichert werden?
 EXCLUDES="/media /proc /dev /sys /tmp"
