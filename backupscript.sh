@@ -19,10 +19,10 @@ echo "...Ziel für Backup gemounted"
 
 echo "starte Backup von $QUELLVZ in $ZIELVZ..."
 if [ "$DEBUG" == "true" ]
-then
-echo "rdiff-backup" $EXCLINE $QUELLVZ $ZIELVZ
-else
-rdiff-backup $EXCLINE $QUELLVZ $ZIELVZ
+	then
+		echo "rdiff-backup" $EXCLINE $QUELLVZ $ZIELVZ
+	else
+		rdiff-backup $EXCLINE $QUELLVZ $ZIELVZ
 fi
 echo "...Backup abgeschlossen"
 
